@@ -4,7 +4,7 @@ import '../index.css'
 const GifGridItem = ({ title, url }) => {
 
   return (
-    <div className="card">
+    <div className="card animate__zoomInDown">
       <img src={url} alt={title}></img>
       <p>{title}</p>
     </div>
